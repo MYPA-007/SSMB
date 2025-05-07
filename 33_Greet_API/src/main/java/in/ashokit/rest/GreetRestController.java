@@ -17,7 +17,7 @@ public class GreetRestController {
 
 		String greetResponse = "Good Morning";
 
-String yy="Hey Bro HOw Are Y";
+String yy="Hey Bro HOw Are U";
 		String welcomeResponse = apiClient.invokeWelcomeApi();
 
 		return greetResponse + ", " + welcomeResponse;
