@@ -14,6 +14,7 @@ public class GreetRestController {
 
 	@GetMapping("/greet")
 	public String getGreetMsg() {
+		String x="Odewa Monkey D Luffy";
 
 		String greetResponse = "Good Morning";
 
