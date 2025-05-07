@@ -10,6 +10,7 @@ public class GreetRestController {
 	private WelcomeApiClient apiClient;
 	@GetMapping("/greet")
 	public String getGreetMsg() {
+		String x="Odewa Monkey D Luffy";
 		String greetResponse = "Good Morning";
 		String yy="Hey Bro HOw Are Bro";
 		String yy="Hey Bro HOw Are U";
